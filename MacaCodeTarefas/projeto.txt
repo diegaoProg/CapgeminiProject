@@ -1,0 +1,39 @@
+AULA ATUAL: 11.B
+
+Nome do App: MacaCode_Tarefas
+
+Descrição: Aplicação para o gerenciamento de Projetos e Tarefas
+
+Objetivo: Organizar as tarefas de projetos
+
+Entidades:
+	* Projetos;
+		- Nome
+		- Descrição
+		- Data de Criação
+		- Data de Atualização 
+	* Tarefas;
+		- Nome
+		- Descrição
+		- Data de Criação
+		- Status
+		- Prazo
+		- Observações
+	* SubTarefas.
+		- Nome
+		- Descrição
+		- Concluído
+
+Requisitos Funcionais:
+	* Cadastrar, editar/excluir um Projeto;
+	* Cadastrar, editar/excluir uma Tarefa;
+	* Cadastrar, editar/excluir uma Subtarefa.
+
+Regras de Negócio:
+	* sem tela de login;
+	* Toda tarefa deve pertencer a um projeto;
+	* Toda subtarefa deve pertencer a uma tarefa;
+
+Tecnologias:
+	* JAVA (NetBeans)
+	* MySql (XAMPP)
